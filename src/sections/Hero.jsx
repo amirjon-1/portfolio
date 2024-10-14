@@ -86,7 +86,6 @@ const Hero = () => {
                 <Canvas className="w-full h-full">
                     <Suspense fallback={CanvasLoader}>
 
-                    {/* <OrbitControls/> */}
                     <PerspectiveCamera makeDefault position={[0,0,30]} />
 
                     <HackerRoom 

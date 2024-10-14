@@ -59,10 +59,13 @@ const About = () => {
                             <img src="/assets/grid3.png" alt="grid image" className="w-full sm:h-[266px] h-fit object-contain"/>
                             <div>
                              <p className="grid-headtext">
-                                More Info
+                                About me
                                 </p>
                                 <p className="grid-subtext">
-                                A skilled software developer with experience in creating web and app solutions for businesses. Strong background in technology internships, focusing on computer security and software. Proven leadership in educational settings, with a solid foundation in computer science and mathematics. Known for problem-solving, project management, and a commitment to continuous learning.
+                               I am an undergraduate student at Williams College. I am currently majoring in mathematics and statistics.
+                                I am skilled software developer with experience in creating web and app solutions for businesses.
+                                 I have a strong background in technology internships, focusing on computer security and software. 
+                                 I am known for my strong problem-solving skills, project management, and a commitment to continuous learning.
                                 </p>
                             </div>
                         </div>
