@@ -9,7 +9,7 @@ const Developer = ({animationName='idle', ...props}) => {
 
 
     const group = useRef();
-  const { nodes, materials } = useGLTF('public/human/human.glb')
+  const { nodes, materials } = useGLTF('public/models/animations/developer.glb')
 
 
     const {animations: idleAnimation}= useFBX('public/models/animations/idle.fbx');
