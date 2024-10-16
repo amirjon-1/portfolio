@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "src": "/human/(.*)",
+        "dest": "/public/human/$1"
+      }
+    ]
+  }
+  
