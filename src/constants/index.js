@@ -101,7 +101,7 @@ export const navLinks = [
       title: 'WSO',
       desc: 'WSO (Williams Students Online) is a comprehensive platform designed for the Williams College community. It offers students a centralized hub for accessing various campus resources, staying informed about events, and connecting with their peers. The user-friendly interface makes it easy to navigate and interact with campus services.',
       subdesc:
-        'The website is built using React Native for a responsive and dynamic user experience across platforms. Android Studio and Xcode were utilized to ensure seamless integration on both Android and iOS devices. Tailwind CSS powers the styling, offering a modern, customizable design that enhances both usability and performance. This combination of technologies provides a smooth, intuitive experience for users while maintaining flexibility for future updates.        ',
+        'Collaborated with a group of programmers to expand on WSO, a student created app, to enhance Williams college life. The website is built using React Native for a responsive and dynamic user experience across platforms. Android Studio and Xcode were utilized to ensure seamless integration on both Android and iOS devices. Tailwind CSS powers the styling, offering a modern, customizable design that enhances both usability and performance. This combination of technologies provides a smooth, intuitive experience for users while maintaining flexibility for future updates.        ',
       href: 'https://wso.williams.edu/',
       texture: '/public/assets/s.mp4',
       logo: '/assets/wso.png',
@@ -115,7 +115,7 @@ export const navLinks = [
         {
           id: 1,
           name: 'React',
-          path: 'public/assets/react.svg',
+          path: '/public/assets/react.svg',
         },
       ],
     },
