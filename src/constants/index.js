@@ -25,10 +25,10 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Appofy- Build Your Online World',
+      title: 'Appofy - Build Your Online World',
       desc: 'Appofy helps businesses grow online by offering customized iOS and Android apps, websites, and digital solutions to expand their presence and reach more customers.      ',
       subdesc:
-        'Appofy was created using Goodbarber, a no-code platform. As a co-founder of Appofy, my partner being my boss at BrewBar when I was a barista, I have been utilizing multiple frameworks and platforms ranging from React-native to Flutter in order to bring dreams to life..',
+        'Appofy (both app and website) was created using Goodbarber, a no-code platform. As a co-founder of Appofy, my partner being my boss at BrewBar when I was a barista, I have been utilizing multiple frameworks and platforms ranging from React-native to Flutter in order to bring ideas to life.',
       href: 'https://www.appofy.co/',
       texture: '/public/assets/s.mp4',
       logo: '/assets/logo.png',
@@ -39,13 +39,17 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight4.png',
       tags: [
-        
+        {
+          id: 1,
+          name: 'Goodbarber',
+          path: 'public/assets/goodbarber.jpg',
+        },
       ],
     },{
-      title: 'Vacatscape - Book Your Deserved Vacation',
-      desc: 'Vacatscape is a user-friendly platform for booking short-term vacation rentals, featuring a range of unique accommodations. It allows travelers to easily find and reserve properties that suit their preferences and budgets.      ',
+      title: 'Vacatscape - Vacation Rental Homes',
+      desc: 'Vacatscape is a platform for booking short-term vacation rentals, featuring a range of unique accommodations. It allows travelers to easily find and reserve properties that suit their preferences and budgets.      ',
       subdesc:
-        'Vacatscape.com was created using Flutter and Flutterflow, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation.        ',
+        'Vacatscape.com (app) was created using Flutter and Flutterflow, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation. Contains secure payment transactions and real time messaging.',
       href: 'https://vacatscape.com/home',
       texture: '/public/assets/s.mp4',
       logo: '/assets/Vacatscape.png',
@@ -64,10 +68,62 @@ export const navLinks = [
       ],
     },
     {
+      title: 'DWJ Curbside LLC - Cleaning Service',
+      desc: 'DWJ Curbside is a professional trash cleaning service designed to keep your surroundings clean and clutter-free. With a focus on efficiency and reliability, DWJ Curbside offers easy scheduling and convenient curbside pickup options, ensuring your trash and waste are managed effectively.',
+      subdesc:
+        'The website is built using basic HTML, CSS, and JavaScript to deliver a clean, responsive design that’s both simple and functional. Hosted on Netlify for fast deployment and secure access, it ensures a seamless user experience across devices. ',
+      href: 'https://dwjcurbside.netlify.app/',
+      texture: '/public/assets/s.mp4',
+      logo: '/public/assets/dwj.png',
+      logoStyle: {
+        backgroundColor: '#FFFFFF',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'HTML',
+          path: 'public/assets/html.webp',
+        },{
+          id: 2,
+          name: 'CSS',
+          path: 'public/assets/css.webp',
+        },{
+          id: 3,
+          name: 'JS',
+          path: 'public/assets/js.png',
+        },
+      ],
+    },
+    {
+      title: 'WSO',
+      desc: 'WSO (Williams Students Online) is a comprehensive platform designed for the Williams College community. It offers students a centralized hub for accessing various campus resources, staying informed about events, and connecting with their peers. The user-friendly interface makes it easy to navigate and interact with campus services.',
+      subdesc:
+        'The website is built using React Native for a responsive and dynamic user experience across platforms. Android Studio and Xcode were utilized to ensure seamless integration on both Android and iOS devices. Tailwind CSS powers the styling, offering a modern, customizable design that enhances both usability and performance. This combination of technologies provides a smooth, intuitive experience for users while maintaining flexibility for future updates.        ',
+      href: 'https://wso.williams.edu/',
+      texture: '/public/assets/s.mp4',
+      logo: '/assets/wso.png',
+      logoStyle: {
+        backgroundColor: '#4B0082',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React',
+          path: 'public/assets/react.svg',
+        },
+      ],
+    },
+    {
       title: 'BrewBar Coffee',
       desc: 'Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup or delivery.      ',
       subdesc:
-        'The BrewBar Coffee App was built using Goodbarber, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
+        'The BrewBar Coffee App was built using Goodbarber, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
       href: 'https://app.brewbarcoffeeco.com/',
       texture: '/public/assets/s.mp4',
       logo: '/assets/brew.jpg',
@@ -78,14 +134,18 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight1.png',
       tags: [
-        
+        {
+          id: 1,
+          name: 'Goodbarber',
+          path: 'public/assets/goodbarber.jpg',
+        },
       ],
     },
     {
       title: 'Techouze - Home Essentials Hub',
       desc: 'Techouze offers smart home products and commercial supplies, specializing in plumbing, HVAC, and electrical tools.',
       subdesc:
-        'Techouze was built using Goodbarber, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience customers.',
+        'Techouze (app) was built using Goodbarber, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience customers. (Website is https://www.techouze.com/)',
       href: 'https://app.techouze.com/',
       texture: '/public/assets/s.mp4',
       logo: '/assets/techouze.png',
@@ -96,14 +156,18 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight2.png',
       tags: [
-      
+        {
+          id: 1,
+          name: 'Goodbarber',
+          path: 'public/assets/goodbarber.jpg',
+        },
       ],
     },
     {
       title: 'ICSI - Islamic Center of Staten Island',
       desc: 'ICSI offers spiritual, educational, and social programs to nurture Islamic knowledge for all ages.',
       subdesc:
-        'ICSI was built using Goodbarber. It is a simple content app. It was meant as a free app/website for my Islamic center since they were paying too much for an outside service.',
+        'ICSI was built using Goodbarber. It is a simple content app. It was meant as a free app/website for my Islamic center since they were paying too much for an outside service. It allows people to access upcoming events and general information.',
       href: 'https://icsi.appofy.co/',
       texture: '/public/assets/s.mp4',
       logo: '/assets/icsi.png',
@@ -114,7 +178,11 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight3.png',
       tags: [
-    
+        {
+          id: 1,
+          name: 'Goodbarber',
+          path: 'public/assets/goodbarber.jpg',
+        },
       ],
     },
   ];
@@ -133,8 +201,8 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Self-employed',
-      pos: 'Freelance Software Developer',
+      name: 'Appofy',
+      pos: 'Co-Founder and Software Developer',
       duration: 'Jan 2024 - Present',
       title: "Created over five iOS and Android apps using Flutter for business employers looking to expand their online presence, with each app having over a thousand active users. Shown on portfolio (includes BrewBar, Techouze, Appofy, etc.).",
       icon: 'https://i.ibb.co/v1FVkfQ/guy.jpg',

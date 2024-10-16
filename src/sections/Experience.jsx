@@ -3,7 +3,7 @@ import { workExperiences } from '../constants/index.js';
 import { OrbitControls } from "@react-three/drei";
 import { Suspense, useState } from "react";
 import CanvasLoader from "../components/CanvasLoader.jsx"
-// import Developer from "../components/Developer.jsx";
+import Developer from "../components/Developer.jsx";
 
 
 
@@ -23,7 +23,7 @@ const Experience = () => {
                             <directionalLight position={[10,10,10]} intensity={1}/>
                             <OrbitControls enableZoom={false}  maxPolarAngle={Math.PI / 2}/>
                             <Suspense fallback={<CanvasLoader />}>
-                                {/* <Developer rotation-y ={0.2} rotation-x={0.3} position-y ={-3} scale={3} animationName = {animationName}/> */}
+                                <Developer rotation-y ={0.2} rotation-x={0.3} position-y ={-3} scale={3} animationName = {animationName}/>
                             </Suspense>
                         </Canvas>
 
