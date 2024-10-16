@@ -12,10 +12,10 @@ const Developer = ({animationName='idle', ...props}) => {
   const { nodes, materials } = useGLTF('/human/human.glb')
 
 
-    const {animations: idleAnimation}= useFBX('public/models/animations/idle.fbx');
-    const {animations: armAnimation}= useFBX('public/models/animations/victory.fbx');
-    const {animations: clapAnimation}= useFBX('public/models/animations/clapping.fbx');
-    const {animations: saluteAnimation}= useFBX('public/models/animations/salute.fbx');
+    const {animations: idleAnimation}= useFBX('/models/animations/idle.fbx');
+    const {animations: armAnimation}= useFBX('/models/animations/victory.fbx');
+    const {animations: clapAnimation}= useFBX('/models/animations/clapping.fbx');
+    const {animations: saluteAnimation}= useFBX('/models/animations/salute.fbx');
 
     idleAnimation[0].name = 'idle';
     armAnimation[0].name = 'arm';

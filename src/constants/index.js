@@ -30,7 +30,7 @@ export const navLinks = [
       subdesc:
         'Appofy (both app and website) was created using Goodbarber, a no-code platform. As a co-founder of Appofy, my partner being my boss at BrewBar when I was a barista, I have been utilizing multiple frameworks and platforms ranging from React-native to Flutter in order to bring ideas to life.',
       href: 'https://www.appofy.co/',
-      texture: '/public/assets/s.mp4',
+      texture: '/assets/s.mp4',
       logo: '/assets/logo.png',
       logoStyle: {
         backgroundColor: '#000000',
@@ -51,7 +51,7 @@ export const navLinks = [
       subdesc:
         'Vacatscape.com (app) was created using Flutter and Flutterflow, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation. Contains secure payment transactions and real time messaging.',
       href: 'https://vacatscape.com/home',
-      texture: '/public/assets/s.mp4',
+      texture: '/assets/s.mp4',
       logo: '/assets/Vacatscape.png',
       logoStyle: {
         backgroundColor: '#000000',
@@ -73,8 +73,8 @@ export const navLinks = [
       subdesc:
         'The website is built using basic HTML, CSS, and JavaScript to deliver a clean, responsive design that’s both simple and functional. Hosted on Netlify for fast deployment and secure access, it ensures a seamless user experience across devices. ',
       href: 'https://dwjcurbside.netlify.app/',
-      texture: '/public/assets/s.mp4',
-      logo: '/public/assets/dwj.png',
+      texture: '/assets/s.mp4',
+      logo: '/assets/dwj.png',
       logoStyle: {
         backgroundColor: '#FFFFFF',
         border: '0.2px solid rgba(208, 213, 221, 1)',
@@ -85,15 +85,15 @@ export const navLinks = [
         {
           id: 1,
           name: 'HTML',
-          path: 'public/assets/html.webp',
+          path: '/assets/html.webp',
         },{
           id: 2,
           name: 'CSS',
-          path: 'public/assets/css.webp',
+          path: '/assets/css.webp',
         },{
           id: 3,
           name: 'JS',
-          path: 'public/assets/js.png',
+          path: '/assets/js.png',
         },
       ],
     },
@@ -103,7 +103,7 @@ export const navLinks = [
       subdesc:
         'Collaborated with a group of programmers to expand on WSO, a student created app, to enhance Williams college life. The website is built using React Native for a responsive and dynamic user experience across platforms. Android Studio and Xcode were utilized to ensure seamless integration on both Android and iOS devices. Tailwind CSS powers the styling, offering a modern, customizable design that enhances both usability and performance. This combination of technologies provides a smooth, intuitive experience for users while maintaining flexibility for future updates.        ',
       href: 'https://wso.williams.edu/',
-      texture: '/public/assets/s.mp4',
+      texture: '/assets/s.mp4',
       logo: '/assets/wso.png',
       logoStyle: {
         backgroundColor: '#4B0082',
@@ -115,7 +115,7 @@ export const navLinks = [
         {
           id: 1,
           name: 'React',
-          path: '/public/assets/react.svg',
+          path: '/assets/react.svg',
         },
       ],
     },
@@ -125,7 +125,7 @@ export const navLinks = [
       subdesc:
         'The BrewBar Coffee App was built using Goodbarber, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
       href: 'https://app.brewbarcoffeeco.com/',
-      texture: '/public/assets/s.mp4',
+      texture: '/assets/s.mp4',
       logo: '/assets/brew.jpg',
       logoStyle: {
         backgroundColor: '#313d34',
@@ -147,7 +147,7 @@ export const navLinks = [
       subdesc:
         'Techouze (app) was built using Goodbarber, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience customers. (Website is https://www.techouze.com/)',
       href: 'https://app.techouze.com/',
-      texture: '/public/assets/s.mp4',
+      texture: '/assets/s.mp4',
       logo: '/assets/techouze.png',
       logoStyle: {
         backgroundColor: '#FFFFFF',
@@ -169,7 +169,7 @@ export const navLinks = [
       subdesc:
         'ICSI was built using Goodbarber. It is a simple content app. It was meant as a free app/website for my Islamic center since they were paying too much for an outside service. It allows people to access upcoming events and general information.',
       href: 'https://icsi.appofy.co/',
-      texture: '/public/assets/s.mp4',
+      texture: '/assets/s.mp4',
       logo: '/assets/icsi.png',
       logoStyle: {
         backgroundColor: '#FFFFFF',
