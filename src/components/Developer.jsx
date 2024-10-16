@@ -9,7 +9,7 @@ const Developer = ({animationName='idle', ...props}) => {
 
 
     const group = useRef();
-  const { nodes, materials } = useGLTF('../../public/human/human.glb')
+  const { nodes, materials } = useGLTF('/human/human.glb')
 
 
     const {animations: idleAnimation}= useFBX('public/models/animations/idle.fbx');
@@ -99,7 +99,7 @@ const Developer = ({animationName='idle', ...props}) => {
   )
 }
 
-useGLTF.preload('../../public/human/human.glb')
+useGLTF.preload('/human/human.glb')
 
 
 export default Developer

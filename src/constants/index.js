@@ -42,7 +42,7 @@ export const navLinks = [
         {
           id: 1,
           name: 'Goodbarber',
-          path: 'public/assets/goodbarber.jpg',
+          path: '/assets/goodbarber.jpg',
         },
       ],
     },{
@@ -137,7 +137,7 @@ export const navLinks = [
         {
           id: 1,
           name: 'Goodbarber',
-          path: 'public/assets/goodbarber.jpg',
+          path: '/assets/goodbarber.jpg',
         },
       ],
     },
@@ -159,7 +159,7 @@ export const navLinks = [
         {
           id: 1,
           name: 'Goodbarber',
-          path: 'public/assets/goodbarber.jpg',
+          path: '/assets/goodbarber.jpg',
         },
       ],
     },
@@ -181,7 +181,7 @@ export const navLinks = [
         {
           id: 1,
           name: 'Goodbarber',
-          path: 'public/assets/goodbarber.jpg',
+          path: '/assets/goodbarber.jpg',
         },
       ],
     },
