@@ -56,19 +56,18 @@ const Contact = () => {
 
 
             <div className='relative min-h-screen flex items-center justify-center flex-col'>
-                <img src="/assets/terminal.png" alt="terminal background" className='absolute inset-0 min-h-screen'/>
                 <div className='contact-container'>
                  <h3 className='head-text'>Contact Me</h3>
-                 <p className='text-lg text-white-600 mt-3'>I'm here to help you bring your ideas to life.</p>
+                 <p className='text-lg text-black mt-3'>I'm here to help you bring your ideas to life.</p>
 
                  <form ref= {formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col space-y-7'>
                     <label className='space-y-3'>
                         <span className='field-label'> Name</span>
-                        <input type='text' name="name" value= {form.name} onChange={handleChange} required className='field-input' placeholder='John Doe'></input>
+                        <input type='text' name="name" value= {form.name} onChange={handleChange} required className='field-input' placeholder='Your Name'></input>
                     </label>
                     <label className='space-y-3'>
                         <span className='field-label'> Email</span>
-                        <input type='email' name="email" value= {form.email} onChange={handleChange} required className='field-input' placeholder='johndoe@gmail.com'></input>
+                        <input type='email' name="email" value= {form.email} onChange={handleChange} required className='field-input' placeholder='YourEmail@gmail.com'></input>
                     </label>
                     <label className='space-y-3'>
                         <span className='field-label'> Message</span>

@@ -49,8 +49,8 @@ export const navLinks = [
       title: 'Vacatscape - Vacation Rental Homes',
       desc: 'Vacatscape is a platform for booking short-term vacation rentals, featuring a range of unique accommodations. It allows travelers to easily find and reserve properties that suit their preferences and budgets.      ',
       subdesc:
-        'Vacatscape.com (app) was created using Flutter and Flutterflow, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation. Contains secure payment transactions and real time messaging.',
-      href: 'https://vacatscape.com/home',
+        'Vacatscape.com (app) was created using Flutter and Flutterflow, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation. Contains secure payment transactions and real time messaging. (Under Construction)',
+      href: 'https://apps.apple.com/ge/app/vacatscape/id6593660995?platform=iphone',
       texture: '/assets/s.mp4',
       logo: '/assets/Vacatscape.png',
       logoStyle: {
@@ -71,7 +71,7 @@ export const navLinks = [
       title: 'DWJ Curbside LLC - Cleaning Service',
       desc: 'DWJ Curbside is a professional trash cleaning service designed to keep your surroundings clean and clutter-free. With a focus on efficiency and reliability, DWJ Curbside offers easy scheduling and convenient curbside pickup options, ensuring your trash and waste are managed effectively.',
       subdesc:
-        'The website is built using basic HTML, CSS, and JavaScript to deliver a clean, responsive design that’s both simple and functional. Hosted on Netlify for fast deployment and secure access, it ensures a seamless user experience across devices. ',
+        'The website is built using basic HTML, CSS, and JavaScript to deliver a responsive design that’s both simple and functional. It is hosted on Netlify for easy deployment and secure access, and it ensures a seamless user experience across devices. ',
       href: 'https://dwjcurbside.netlify.app/',
       texture: '/assets/s.mp4',
       logo: '/assets/dwj.png',
@@ -99,9 +99,9 @@ export const navLinks = [
     },
     {
       title: 'WSO',
-      desc: 'WSO (Williams Students Online) is a comprehensive platform designed for the Williams College community. It offers students a centralized hub for accessing various campus resources, staying informed about events, and connecting with their peers. The user-friendly interface makes it easy to navigate and interact with campus services.',
+      desc: 'WSO (Williams Students Online) is a mobile and web platform designed for the Williams College student community. It offers students a place for accessing various campus resources, staying informed about events, and connecting with their peers.',
       subdesc:
-        'Collaborated with a group of programmers to expand on WSO, a student created app, to enhance Williams college life. The website is built using React Native for a responsive and dynamic user experience across platforms. Android Studio and Xcode were utilized to ensure seamless integration on both Android and iOS devices. Tailwind CSS powers the styling, offering a modern, customizable design that enhances both usability and performance. This combination of technologies provides a smooth, intuitive experience for users while maintaining flexibility for future updates.        ',
+        'Collaborated with a group of programmers to expand on WSO. The app is built using React Native for a responsive and dynamic user experience across devices. Tailwind CSS powers the styling, offering a modern, customizable design that enhances both usability and performance. Ranging from minor bug fixes to major implementations, the group has been able to provide a good experince for users. (Under Construction)      ',
       href: 'https://wso.williams.edu/',
       texture: '/assets/s.mp4',
       logo: '/assets/wso.png',
@@ -121,7 +121,7 @@ export const navLinks = [
     },
     {
       title: 'BrewBar Coffee',
-      desc: 'Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup or delivery.      ',
+      desc: 'Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup.',
       subdesc:
         'The BrewBar Coffee App was built using Goodbarber, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
       href: 'https://app.brewbarcoffeeco.com/',
@@ -145,8 +145,8 @@ export const navLinks = [
       title: 'Techouze - Home Essentials Hub',
       desc: 'Techouze offers smart home products and commercial supplies, specializing in plumbing, HVAC, and electrical tools.',
       subdesc:
-        'Techouze (app) was built using Goodbarber, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience customers. (Website is https://www.techouze.com/)',
-      href: 'https://app.techouze.com/',
+        'Techouze (app) was built using Goodbarber, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for customers. (Website is https://www.techouze.com/)',
+      href: 'https://apps.apple.com/ge/app/techouze/id6651817149?platform=iphone',
       texture: '/assets/s.mp4',
       logo: '/assets/techouze.png',
       logoStyle: {
@@ -203,9 +203,9 @@ export const navLinks = [
       id: 1,
       name: 'Appofy',
       pos: 'Co-Founder and Software Developer',
-      duration: 'Jan 2024 - Present',
-      title: "Created over five iOS and Android apps using Flutter for business employers looking to expand their online presence, with each app having over a thousand active users. Shown on portfolio (includes BrewBar, Techouze, Appofy, etc.).",
-      icon: 'https://i.ibb.co/v1FVkfQ/guy.jpg',
+      duration: 'Jan 2024 - Dec 2024',
+      title: "Developed over five cross-platform mobile apps using Flutter and other platforms for business employers looking to expand their online presence, garnering 500+ active users. Partnered with clients to analyze user needs and implement tailored features, leading to a 20% improvement in app retention rates.",
+      icon: 'https://i.ibb.co/S55Vkbq/logo.png',
       animation: 'arm',
     },
     {
@@ -213,7 +213,7 @@ export const navLinks = [
       name: 'Computer Care And Learning',
       pos: 'Technology Intern',
       duration: 'Jun 2023 - Aug 2023 and Jun 2024 - Aug 2024',
-      title: "Explored a multitude of security and backup solutions provided to customers including Macrium, Backblaze, etc to help keep their data secure.",
+      title: "Conducted backups and data recovery for over 50 client systems using Macrium, SyncBack, and Backblaze, safeguarding sensitive client information. Helped resolve complex technical issues, such as email migrations, hardware malfunctions, and network connectivity, ensuring seamless client experiences. Built a secure website with a team of 10 interns using OpenPGP encryption and Firebase for authentication and real-time updates, enabling users to share political ideas safely.",
       icon: 'https://i.ibb.co/jr6qHjc/s.png',
       animation: 'clapping',
     },
@@ -222,7 +222,7 @@ export const navLinks = [
       name: 'Evolve with Dr. Deby Torbett ',
       pos: 'Web Developer & Research Assistant',
       duration: 'March. 2023–May. 2023',
-      title: "Developed on running a business through the usage of The Champagne Room. Helped design a fully functional website using the no-code platform.",
+      title: "Researched and developed presentations on the conscious, unconscious, and superconscious mind, delivering insights to 40+ individuals. Promoted the MAP method, a therapeutic approach used by the supervisor, to support patients with coping issues, leading to a 20% increase in patient engagement. Designed a functional business website on a no-code platform, streamlining customer engagement.",
       icon: 'https://i.ibb.co/KXFYwb8/img.png',
       animation: 'salute',
     },

@@ -22,6 +22,13 @@ export default {
           600: '#AFB0B6',
           500: '#62646C',
         },
+        customGreen:{
+          DEFAULT: '#F5F5F5', // Add your hex color
+        },
+        customeBash:{
+          DEFAULT: '#E8EAE6',
+        }
+  
       },
       backgroundImage: {
         terminal: "url('/assets/terminal.png')",

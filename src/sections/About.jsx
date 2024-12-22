@@ -15,10 +15,10 @@ const About = () => {
     }
     return (
       <section className="c-space my-20" id ="about">
-        <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full ">
+        <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
-                    <img src="/assets/3d.png" alt="grid-1" className="w-full sm:h-[200px] h-fit object-contain mt-10 mb-10"/>
+                    <img src="/assets/pfp.png" alt="grid-1" className="w-full sm:h-[200px] h-fit object-contain mt-10 mb-10"/>
                      <div>
                     <p className="grid-headtext">Hi, I am Amir</p>
                     <p className="grid-subtext">I am an undergraduate at Williams College, with a passion for computer engineering.</p>
@@ -39,7 +39,7 @@ const About = () => {
                     <div className="col-span-1 xl:row-span-4">
                         <div className="grid-container">
                             <div className="rounded-3xl w-full sm-h-[326px] h-fit flex justify-center items-center">
-                                <Globe height={326} width={326} backgroundColor="rgba(0,0,0,0)" backgroundImageOpacity= {0.5} showAtmosphere showGraticules globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg" bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"/>
+                                <Globe height={326} width={326} backgroundColor="rgba(0,0,0,0)" backgroundImageOpacity= {0.5} showAtmosphere showGraticules globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg" bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"/>
                             </div>
                             <div>
                                 <p className="grid-headtext">
@@ -54,16 +54,15 @@ const About = () => {
                    
                     </div>   
 
-                    <div className="xl:col-span-2 xl:row-span-3">
+                    <div className="xl:col-span-2 xl:row-span-2">
                         <div className="grid-container">
-                            <img src="/assets/grid3.png" alt="grid image" className="w-full sm:h-[266px] h-fit object-contain"/>
                             <div>
                              <p className="grid-headtext">
                                 About me
                                 </p>
                                 <p className="grid-subtext">
-                               I am an undergraduate student at Williams College. I am currently majoring in mathematics and statistics.
-                                I am skilled software developer with experience in creating web and app solutions for businesses.
+                               I am an undergraduate student at Williams College. I am currently majoring in computer science and statistics.
+                                I am a skilled software developer with experience in creating web and app solutions for businesses.
                                  I have a strong background in technology internships, focusing on computer security and software. 
                                  I am known for my strong problem-solving skills, project management, and a commitment to continuous learning.
                                 </p>
@@ -71,9 +70,8 @@ const About = () => {
                         </div>
                      </div> 
 
-                     <div className="xl:col-span-1 xl:row-span-2">
+                     <div className="xl:col-span-1 xl:row-span-1">
                         <div className="grid-container"> 
-                            <img src= "assets/grid4.png" alt="grid image" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top" />
                             <div className="space-y-2">
                                 <p className="grid-subtext text-center"> Contact me</p>
                                 <div className="copy-container" onClick={handleCopy}>
