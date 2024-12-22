@@ -89,7 +89,7 @@ const HackerRoom = () => (
       <Pointer />
       <Clump />
     </Physics>
-    <Environment files="public/adamsbridge.hdr" />
+    <Environment files="assets/adamsbridge.hdr" />
     <EffectComposer disableNormalPass multisampling={0}>
       <N8AO halfRes color="black" aoRadius={2} intensity={1} aoSamples={6} denoiseSamples={4} />
       <Bloom mipmapBlur levels={7} intensity={1} />
@@ -135,7 +135,7 @@ Solutions That Matter.</p>
 
 function Clump({ mat = new THREE.Matrix4(), vec = new THREE.Vector3(), ...props }) {
   const { outlines } = 0.0;
-  const texture = useTexture("public/cross.jpg")
+  const texture = useTexture("assets/cross.jpg")
   const [ref, api] = useSphere(() => ({ args: [1], mass: 1, angularDamping: 0.1, linearDamping: 0.65, position: [rfs(20), rfs(20), rfs(20)] }))
   useFrame((state) => {
     for (let i = 0; i < 40; i++) {
