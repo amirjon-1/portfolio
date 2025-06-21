@@ -18,8 +18,11 @@ const About = () => {
         <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
-                    <img src="/assets/pfp.png" alt="grid-1" className="w-full sm:h-[200px] h-fit object-contain mt-10 mb-10"/>
-                     <div>
+<img 
+            src="/assets/profile.png" 
+            alt="grid-1" 
+            className="w-56 h-56 rounded-full object-cover mx-auto mt-10 mb-6"
+        />                     <div>
                     <p className="grid-headtext">Hi, I am Amir</p>
                     <p className="grid-subtext">I am an undergraduate at Williams College, with a passion for computer engineering.</p>
                 </div>
@@ -29,10 +32,10 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container items-center">
-                        <img src= "assets/lang.png" alt="grid" className="w-full sm:w-[200px] h-fit object-contain mb-20 mt-10"/>
+                        <img src= "assets/stack.png" alt="grid" className="w-full sm:w-[200px] h-fit object-contain mb-20 mt-10"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I specialize in Java, Python, and React, with a focus on full-stack development, and I also have some experience with machine learning.</p>
+                            <p className="grid-subtext">I specialize in Java, Python, and React, with a focus on full-stack development, and I also have experience with developing machine learning models.</p>
                         </div>
                     </div>
                     </div> 

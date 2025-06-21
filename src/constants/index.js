@@ -26,9 +26,9 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'Appofy - Build Your Online World',
-      desc: 'Appofy helps businesses grow online by offering customized iOS and Android apps, websites, and digital solutions to expand their presence and reach more customers.      ',
+      desc: 'Appofy helps businesses grow online by offering customized iOS and Android apps, websites, and digital solutions to expand their presence and reach more customers.',
       subdesc:
-        'Appofy (both app and website) was created using Goodbarber, a no-code platform. As a co-founder of Appofy, my partner being my boss at BrewBar when I was a barista, I have been utilizing multiple frameworks and platforms ranging from React-native to Flutter in order to bring ideas to life.',
+        'As a co-founder of Appofy, my partner being my employer at BrewBar when I was a barista, I have been utilizing multiple frameworks and platforms ranging from React-native to Flutter in order to bring ideas to life.',
       href: 'https://www.appofy.co/',
       texture: '/assets/s.mp4',
       logo: '/assets/logo.png',
@@ -41,8 +41,13 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'Goodbarber',
-          path: '/assets/goodbarber.jpg',
+          name: 'react',
+          path: '/assets/react.svg',
+        },
+         {
+          id: 2,
+          name: 'Flutter',
+          path: '/assets/flut.jpg',
         },
       ],
     },{
@@ -81,7 +86,7 @@ export const navLinks = [
       title: 'Vacatscape - Vacation Rental Homes',
       desc: 'Vacatscape is a platform for booking short-term vacation rentals, featuring a range of unique accommodations. It allows travelers to easily find and reserve properties that suit their preferences and budgets.      ',
       subdesc:
-        'Vacatscape.com (app) was created using Flutter and Flutterflow, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation. Contains secure payment transactions and real time messaging. (Under Construction)',
+        'Vacatscape.com (app) was created using Flutter, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation. Contains secure payment transactions and real time messaging.',
       href: 'https://apps.apple.com/ge/app/vacatscape/id6593660995?platform=iphone',
       texture: '/assets/s.mp4',
       logo: '/assets/Vacatscape.png',
@@ -155,7 +160,7 @@ export const navLinks = [
       title: 'BrewBar Coffee',
       desc: 'Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup.',
       subdesc:
-        'The BrewBar Coffee App was built using Goodbarber, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
+        'The BrewBar Coffee App was built using React Native and Node.js, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
       href: 'https://app.brewbarcoffeeco.com/',
       texture: '/assets/s.mp4',
       logo: '/assets/brew.jpg',
@@ -168,8 +173,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'Goodbarber',
-          path: '/assets/goodbarber.jpg',
+          name: 'react',
+          path: '/assets/react.svg',
         },
       ],
     },
@@ -177,7 +182,7 @@ export const navLinks = [
       title: 'Techouze - Home Essentials Hub',
       desc: 'Techouze offers smart home products and commercial supplies, specializing in plumbing, HVAC, and electrical tools.',
       subdesc:
-        'Techouze (app) was built using Goodbarber, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for customers. (Website is https://www.techouze.com/)',
+        'Techouze (app) was built using React Native and Node.js, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for customers. (Website is https://www.techouze.com/)',
       href: 'https://apps.apple.com/ge/app/techouze/id6651817149?platform=iphone',
       texture: '/assets/s.mp4',
       logo: '/assets/techouze.png',
@@ -190,8 +195,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'Goodbarber',
-          path: '/assets/goodbarber.jpg',
+          name: 'react',
+          path: '/assets/react.svg',
         },
       ],
     },
@@ -199,7 +204,7 @@ export const navLinks = [
       title: 'ICSI - Islamic Center of Staten Island',
       desc: 'ICSI offers spiritual, educational, and social programs to nurture Islamic knowledge for all ages.',
       subdesc:
-        'ICSI was built using Goodbarber. It is a simple content app. It was meant as a free app/website for my Islamic center since they were paying too much for an outside service. It allows people to access upcoming events and general information.',
+        'ICSI was built using React Native and Node.js. It was created as a free app/website for my Islamic center since they were paying too much for an outside service. It allows people to access upcoming events and general information.',
       href: 'https://icsi.appofy.co/',
       texture: '/assets/s.mp4',
       logo: '/assets/icsi.png',
@@ -212,8 +217,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'Goodbarber',
-          path: '/assets/goodbarber.jpg',
+          name: 'react',
+          path: '/assets/react.svg',
         },
       ],
     },
@@ -234,18 +239,18 @@ export const navLinks = [
     {
       id: 1,
       name: 'Appofy',
-      pos: 'Co-Founder and Software Developer',
+      pos: 'Senior Software Engineer',
       duration: 'Jan 2024 - Dec 2024',
-      title: "Developed over five cross-platform mobile apps using Flutter and other platforms for business employers looking to expand their online presence, garnering 500+ active users. Partnered with clients to analyze user needs and implement tailored features, leading to a 20% improvement in app retention rates.",
+      title: "Developed over 6 cross-platform mobile apps using React Native, Node.js, and Firebase, enabling small businesses to expand their digital presence, attract over 500 active users, and boost overall profitability. Partnered with clients to analyze user needs and implement tailored features, leading to a 20% improvement in app retention rates.",
       icon: 'https://i.ibb.co/S55Vkbq/logo.png',
       animation: 'arm',
     },
     {
       id: 2,
       name: 'Computer Care And Learning',
-      pos: 'Technology Intern',
+      pos: 'Software Engineer Intern',
       duration: 'Jun 2023 - Aug 2023 and Jun 2024 - Aug 2024',
-      title: "Conducted backups and data recovery for over 50 client systems using Macrium, SyncBack, and Backblaze, safeguarding sensitive client information. Helped resolve complex technical issues, such as email migrations, hardware malfunctions, and network connectivity, ensuring seamless client experiences. Built a secure website with a team of 10 interns using OpenPGP encryption and Firebase for authentication and real-time updates, enabling users to share political ideas safely.",
+      title: "Designed and implemented secure IT solutions, incorporating KeePassXC, Macrium, Thunderbird and Backblaze, to address issues like email migrations, hardware failures, and network disruptions, enhancing client operations. Built a full stack secure website with a team of 10 interns using OpenPGP encryption and Firebase for authentication, enabling over 100 users to share political ideas safely.",
       icon: 'https://i.ibb.co/jr6qHjc/s.png',
       animation: 'clapping',
     },
