@@ -1,14 +1,11 @@
 # Portfolio
 
-A modern, interactive portfolio website showcasing my work as a Software Engineer. Built with cutting-edge web technologies to deliver an immersive 3D experience.
-
 🌐 **Live Site:** [amir-eta.vercel.app](https://amir-eta.vercel.app)
 
 ## ✨ Features
 
 - **3D Animations** - Immersive Three.js powered visuals and interactive elements
 - **Responsive Design** - Optimized for all devices using Tailwind CSS
-- **Modern UI/UX** - Clean, professional interface with smooth animations
 - **Fast Performance** - Built with Vite for optimal loading speeds
 
 ## 🛠️ Tech Stack
@@ -45,13 +42,6 @@ npm run dev
 ```
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser
-
-## 📦 Build for Production
-
-```bash
-npm run dev
-```
-
 
 ## 📄 License
 
