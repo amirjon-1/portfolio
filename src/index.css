@@ -199,9 +199,9 @@ body {
 }
 
 body {
-  background: #E8EAE6; /* Changed to white background */
+  background: #FFFFFF;
   font-family: 'General Sans', sans-serif;
-  color: #007BFF; /* Set default text color to black */
+  color: #000000;
 }
 
 @layer utilities {
@@ -226,7 +226,7 @@ body {
   }
 
   .nav-sidebar {
-    @apply absolute left-0 right-0 bg-gray-100 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+    @apply absolute left-0 right-0 bg-white backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block border-b border-gray-200;
   }
 
   .text-gray_gradient {
@@ -270,7 +270,7 @@ body {
 
   /* projects section  */
   .arrow-btn {
-    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full bg-black;
+    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full bg-black hover:bg-gray-800 flex items-center justify-center;
   }
 
   .tech-logo {
@@ -308,7 +308,7 @@ body {
   }
 
   .work-content_logo {
-    @apply rounded-3xl w-16 h-16 p-2 bg-black-300;
+    @apply rounded-lg w-16 h-16 p-1 border border-gray-300 bg-transparent;
   }
 
   .work-content_bar {

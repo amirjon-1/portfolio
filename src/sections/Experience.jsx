@@ -13,8 +13,8 @@ const Experience = () => {
     const [animationName, setAnimationName]= useState('idle');
     return (
         <section className="c-space my-20">
-            <div className="w-full text-white-600">
-                <h3 className="head-text">Professional Experience</h3>
+            <div className="w-full text-white-600 max-w-7xl mx-auto px-6 sm:px-10">
+                <h3 className="head-text mb-12">Professional Experience</h3>
                 <div className="work-container">
                     <div className="work-canvas">
                         <Canvas>

@@ -28,8 +28,8 @@ export const navLinks = [
       title: 'Appofy - Build Your Online World',
       desc: 'Appofy helps businesses grow online by offering customized iOS and Android apps, websites, and digital solutions to expand their presence and reach more customers.',
       subdesc:
-        'As a co-founder of Appofy, my partner being my employer at BrewBar when I was a barista, I have been utilizing multiple frameworks and platforms ranging from React-native to Flutter in order to bring ideas to life.',
-      href: 'https://www.appofy.co/',
+        '',
+      href: 'https://apps.apple.com/us/app/appofy/id6593660871',
       texture: '/assets/s.mp4',
       logo: '/assets/logo.png',
       logoStyle: {
@@ -39,11 +39,6 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight4.png',
       tags: [
-        {
-          id: 1,
-          name: 'react',
-          path: '/assets/react.svg',
-        },
          {
           id: 2,
           name: 'Flutter',
@@ -52,7 +47,7 @@ export const navLinks = [
       ],
     },{
       title: 'Consensus Corner',
-      desc: 'Consensus Corner is a platform that allows users to share their views and opinions on various topics regarding politics. It provides a space for users to express their thoughts and opinions in a safe and respectful environment. Most of all it is secure.      ',
+      desc: 'Consensus Corner is a platform that allows users to share their views and opinions on various topics regarding politics. It provides a space for users to express their thoughts and opinions in a safe and respectful environment.',
       subdesc:
       'The website is designed to provide a secure way of sharing information. It uses basic html, css and js to deliver a responsive design thats both simple and functional. When initially signing up, it uses a third party website for the user to generate a public and private key (created using the same email and passphrase). This public key and encrypted private key can be downloaded from that third party website and can be uploaded when signing up and posting. The public key is used for making an account to make sure the person signing up can be verified. When creating a post the user must enter their encrypted private key and passphrase to decrypt it in order to post a message (it wont work otherwise). It displays this post and also stores it in Firebase. The message, along with the signed version of the message (uses openpgp to sign), and the public key is stored in firebase. When a post is displayed it allows anyone to check the signed message and the authors public key (under details). This can be used to verify if the message was written by the author (this can also be done through a third party website). The public key can be seen on a public directory (under construction) that allows anyone to connect a public key to an identity (uses a form of higher verification). This guarantees that identity fraud or something similar will be extremely rare. People can also upvote and downvote the policy. They can also add comments. ',
       href: 'https://amirjon-1.github.io/ccalproject/',
@@ -84,9 +79,9 @@ export const navLinks = [
     
     {
       title: 'Vacatscape - Vacation Rental Homes',
-      desc: 'Vacatscape is a platform for booking short-term vacation rentals, featuring a range of unique accommodations. It allows travelers to easily find and reserve properties that suit their preferences and budgets.      ',
+      desc: 'Vacatscape is a platform for booking short-term vacation rentals, featuring a range of unique accommodations. It allows travelers to easily find and reserve properties that suit their preferences and budgets. ',
       subdesc:
-        'Vacatscape.com (app) was created using Flutter, along with API integration and Firebase, to offer real-time travel data and booking options. The site was tested and deployed on both iOS and Android, ensuring a smooth experience for users looking to plan their perfect vacation. Contains secure payment transactions and real time messaging.',
+        'Developed a cross-platform mobile app using Flutter and Firebase, integrating RESTful APIs for real-time travel data and booking functionality. Implemented Firebase Authentication, Firestore database, Stripe payment processing, and real-time messaging with Firebase Cloud Messaging. Tested and deployed to iOS and Android platforms.',
       href: 'https://apps.apple.com/ge/app/vacatscape/id6593660995?platform=iphone',
       texture: '/assets/s.mp4',
       logo: '/assets/Vacatscape.png',
@@ -108,7 +103,7 @@ export const navLinks = [
       title: 'DWJ Curbside LLC - Cleaning Service',
       desc: 'DWJ Curbside is a professional trash cleaning service designed to keep your surroundings clean and clutter-free. With a focus on efficiency and reliability, DWJ Curbside offers easy scheduling and convenient curbside pickup options, ensuring your trash and waste are managed effectively.',
       subdesc:
-        'The website is built using basic HTML, CSS, and JavaScript to deliver a responsive design that’s both simple and functional. It is hosted on Netlify for easy deployment and secure access, and it ensures a seamless user experience across devices. ',
+        'The website is built using basic HTML, CSS, and JavaScript to deliver a responsive design that’s both simple and functional. It is hosted on Netlify for easy deployment and secure access, and it ensures a seamless user experience across devices.',
       href: 'https://dwjcurbside.netlify.app/',
       texture: '/assets/s.mp4',
       logo: '/assets/dwj.png',
@@ -161,7 +156,7 @@ export const navLinks = [
       desc: 'Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup.',
       subdesc:
         'The BrewBar Coffee App was built using React Native and Node.js, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
-      href: 'https://app.brewbarcoffeeco.com/',
+      href: 'https://apps.apple.com/us/app/brewbar-coffee/id6535690026',
       texture: '/assets/s.mp4',
       logo: '/assets/brew.jpg',
       logoStyle: {
@@ -182,7 +177,7 @@ export const navLinks = [
       title: 'Techouze - Home Essentials Hub',
       desc: 'Techouze offers smart home products and commercial supplies, specializing in plumbing, HVAC, and electrical tools.',
       subdesc:
-        'Techouze (app) was built using React Native and Node.js, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. Google Analytics was added to track app performance and user activity. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for customers. (Website is https://www.techouze.com/)',
+        'Techouze (app) was built using React Native and Node.js, allowing it to run smoothly on both iOS and Android. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for customers.',
       href: 'https://apps.apple.com/ge/app/techouze/id6651817149?platform=iphone',
       texture: '/assets/s.mp4',
       logo: '/assets/techouze.png',
@@ -202,9 +197,9 @@ export const navLinks = [
     },
     {
       title: 'ICSI - Islamic Center of Staten Island',
-      desc: 'ICSI offers spiritual, educational, and social programs to nurture Islamic knowledge for all ages.',
+      desc: 'ICSI offers spiritual, educational, and social programs to nurture Islamic knowledge for all ages. This app was a donation to the Islamic center!',
       subdesc:
-        'ICSI was built using React Native and Node.js. It was created as a free app/website for my Islamic center since they were paying too much for an outside service. It allows people to access upcoming events and general information.',
+        'Built used React Native and Node. It allows people to access upcoming events and general information.',
       href: 'https://icsi.appofy.co/',
       texture: '/assets/s.mp4',
       logo: '/assets/icsi.png',
@@ -236,31 +231,32 @@ export const navLinks = [
   };
   
   export const workExperiences = [
+
     {
       id: 1,
-      name: 'Appofy',
-      pos: 'Senior Software Engineer',
-      duration: 'Jan 2024 - Dec 2024',
-      title: "Developed over 6 cross-platform mobile apps using React Native, Node.js, and Firebase, enabling small businesses to expand their digital presence, attract over 500 active users, and boost overall profitability. Partnered with clients to analyze user needs and implement tailored features, leading to a 20% improvement in app retention rates.",
-      icon: 'https://i.ibb.co/S55Vkbq/logo.png',
-      animation: 'arm',
-    },
-    {
-      id: 2,
-      name: 'Computer Care And Learning',
-      pos: 'Software Engineer Intern',
-      duration: 'Jun 2023 - Aug 2023 and Jun 2024 - Aug 2024',
-      title: "Designed and implemented secure IT solutions, incorporating KeePassXC, Macrium, Thunderbird and Backblaze, to address issues like email migrations, hardware failures, and network disruptions, enhancing client operations. Built a full stack secure website with a team of 10 interns using OpenPGP encryption and Firebase for authentication, enabling over 100 users to share political ideas safely.",
+      name: 'Schoolbus',
+      pos: 'Lead Software Engineer',
+      duration: 'May 2025 - Present',
+      title: "Direct development of a cross-platform ride-sharing app (React Native, Node.js, PostgreSQL on AWS), managing a team of 4 student engineers. Institute TDD, raising code coverage from 40% to 85% and cutting post-deployment bugs by 70%. Design a scalable backend using the Hono framework, achieving sub-100ms API response times and supporting over 1000 concurrent users with minimal latency. Built to easily scale across multiple schools.",
       icon: 'https://i.ibb.co/jr6qHjc/s.png',
       animation: 'clapping',
     },
     {
-      id: 3,
-      name: 'Evolve with Dr. Deby Torbett ',
-      pos: 'Web Developer & Research Assistant',
-      duration: 'March. 2023–May. 2023',
-      title: "Researched and developed presentations on the conscious, unconscious, and superconscious mind, delivering insights to 40+ individuals. Promoted the MAP method, a therapeutic approach used by the supervisor, to support patients with coping issues, leading to a 20% increase in patient engagement. Designed a functional business website on a no-code platform, streamlining customer engagement.",
-      icon: 'https://i.ibb.co/KXFYwb8/img.png',
+      id: 2,
+      name: 'SVP Portland',
+      pos: 'Software Engineer Intern',
+      duration: 'June 2025 - September 2025',
+      title: "Rebuilt SVP Portland’s public website to align with new marketing objectives, boosting usability and increasing visitor engagement by 40%. Automated investor partner onboarding workflows with Salesforce + V4S dynamic forms, reducing manual processing time by 50%. Shipped features in 3-week Agile sprints via Azure DevOps, completing 95% of sprint goals on time and improving release velocity by 30%.",
+      icon: 'https://i.ibb.co/mC4wW7qw/svps.png',
       animation: 'salute',
+    },
+    {
+      id: 3,
+      name: 'Appofy',
+      pos: 'Software Engineer',
+      duration: 'March 2024 - July 2025',
+      title: "Developed over 6 cross-platform mobile apps using React Native, Node.js, and Firebase, enabling small businesses to expand their digital presence, attract over 500 active users, and boost overall profitability. Partnered with clients to analyze user needs and implement tailored features, leading to a 20% improvement in app retention rates.",
+      icon: 'https://i.ibb.co/S55Vkbq/logo.png',
+      animation: 'arm',
     },
   ];

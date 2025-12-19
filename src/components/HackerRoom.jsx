@@ -69,8 +69,7 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import { Html, Outlines, Environment, useTexture } from "@react-three/drei"
 import { Physics, useSphere } from "@react-three/cannon"
 import { EffectComposer, N8AO, SMAA, Bloom } from "@react-three/postprocessing"
-import { useControls } from "leva"
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 
 const rfs = THREE.MathUtils.randFloatSpread
@@ -95,55 +94,36 @@ const HackerRoom = () => (
       <Bloom mipmapBlur levels={7} intensity={1} />
       <SMAA />
     </EffectComposer>
-    {/* <Html position={[0, 0, 0]} center>
-      <div 
-      style={{ color: "BLACK", fontSize: "100px", fontWeight: "bold", borderRadius: "5px", width: "150%", textAlign: "center",  
-    }}
-      >
-        Hi, I am Amir
-       </div>
-
-
-    </Html> */}
-
-<Html
-  center
-  style={{
-    position: "fixed",  // Keeps the text fixed in the viewport
-    top: "50%",         // Centers vertically in the viewport
-    left: "50%",        // Centers horizontally in the viewport
-    transform: "translate(-50%, -50%)", // Precise centering
-    zIndex: -1,         // Ensures the text appears above other elements
-    pointerEvents: "none", // Allows interaction with the 3D scene
-  }}
->
-  <p
-    style={{
-      color: "black",
-      fontSize: "100px",
-      fontWeight: "bold",
-      textAlign: "center",
-      padding: "20px",
-      borderRadius: "5px",
-    }}
-  >
-Solutions That Matter.</p>
-</Html>
-
   </Canvas>
 )
 
 function Clump({ mat = new THREE.Matrix4(), vec = new THREE.Vector3(), ...props }) {
   const { outlines } = 0.0;
   const texture = useTexture("assets/cross.jpg")
-  const [ref, api] = useSphere(() => ({ args: [1], mass: 1, angularDamping: 0.1, linearDamping: 0.65, position: [rfs(20), rfs(20), rfs(20)] }))
-  useFrame((state) => {
-    for (let i = 0; i < 40; i++) {
-      ref.current.getMatrixAt(i, mat)
+  const [ref, api] = useSphere(() => ({ 
+    args: [1], 
+    mass: 1, 
+    angularDamping: 0.1, 
+    linearDamping: 0.65, 
+    position: [rfs(20), rfs(20), rfs(20)] 
+  }))
   
-      api.at(i).applyForce(vec.setFromMatrixPosition(mat).normalize().multiplyScalar(-40).toArray(), [0, 0, 0])
+  useFrame(() => {
+    if (!ref.current || !api) return;
+    const count = Math.min(ref.current.count || 0, 20);
+    
+    for (let i = 0; i < count; i++) {
+      if (ref.current.getMatrixAt) {
+        ref.current.getMatrixAt(i, mat);
+        const apiInstance = api.at ? api.at(i) : null;
+        if (apiInstance && apiInstance.applyForce) {
+          vec.setFromMatrixPosition(mat).normalize().multiplyScalar(-40);
+          apiInstance.applyForce(vec.toArray(), [0, 0, 0]);
+        }
+      }
     }
   })
+  
   return (
     <instancedMesh ref={ref} castShadow receiveShadow args={[sphereGeometry, baubleMaterial, 20]} material-map={texture}>
       <Outlines thickness={outlines} />
@@ -153,8 +133,22 @@ function Clump({ mat = new THREE.Matrix4(), vec = new THREE.Vector3(), ...props 
 
 function Pointer() {
   const viewport = useThree((state) => state.viewport)
-  const [ref, api] = useSphere(() => ({ type: "Kinematic", args: [3], position: [0, 0, 0] }))
-  useFrame((state) => api.position.set((state.mouse.x * viewport.width) / 2, (state.mouse.y * viewport.height) / 2, 0))
+  const [ref, api] = useSphere(() => ({ 
+    type: "Kinematic", 
+    args: [3], 
+    position: [0, 0, 0] 
+  }))
+  
+  useFrame((state) => {
+    if (api && api.position) {
+      api.position.set(
+        (state.mouse.x * viewport.width) / 2, 
+        (state.mouse.y * viewport.height) / 2, 
+        0
+      );
+    }
+  })
+  
   return (
     <mesh ref={ref} scale={0.2}>
       <sphereGeometry />
@@ -165,4 +159,5 @@ function Pointer() {
 }
 
 
-export default HackerRoom
+export default HackerRoom;
+

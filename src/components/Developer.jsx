@@ -6,29 +6,42 @@ import React, { useEffect, useRef } from 'react'
 import { useAnimations, useFBX, useGLTF } from '@react-three/drei'
 
 const Developer = ({animationName='idle', ...props}) => {
-
-
-    const group = useRef();
+  const group = useRef();
   const { nodes, materials } = useGLTF('/human/human.glb')
 
+  const {animations: idleAnimation} = useFBX('/models/animations/idle.fbx');
+  const {animations: armAnimation} = useFBX('/models/animations/victory.fbx');
+  const {animations: clapAnimation} = useFBX('/models/animations/clapping.fbx');
+  const {animations: saluteAnimation} = useFBX('/models/animations/salute.fbx');
 
-    const {animations: idleAnimation}= useFBX('/models/animations/idle.fbx');
-    const {animations: armAnimation}= useFBX('/models/animations/victory.fbx');
-    const {animations: clapAnimation}= useFBX('/models/animations/clapping.fbx');
-    const {animations: saluteAnimation}= useFBX('/models/animations/salute.fbx');
-
+  // Prepare animations
+  const animations = React.useMemo(() => {
+    if (!idleAnimation[0] || !armAnimation[0] || !clapAnimation[0] || !saluteAnimation[0]) {
+      return [];
+    }
     idleAnimation[0].name = 'idle';
     armAnimation[0].name = 'arm';
     clapAnimation[0].name = 'clapping';
-    saluteAnimation[0].name = 'salute'
+    saluteAnimation[0].name = 'salute';
+    return [idleAnimation[0], armAnimation[0], clapAnimation[0], saluteAnimation[0]];
+  }, [idleAnimation, armAnimation, clapAnimation, saluteAnimation]);
 
-  const {actions} = useAnimations([idleAnimation[0], armAnimation[0], clapAnimation[0],  saluteAnimation[0] ], group);
+  const {actions} = useAnimations(animations, group);
 
+  useEffect(() => {
+    if (!actions || !animationName) return;
+    
+    const action = actions[animationName];
+    if (!action) return;
 
-  useEffect(()=> {
-    actions[animationName].reset().fadeIn(0.5).play();
-    return () => actions[animationName].fadeOut(0.5);
-  }, [animationName])
+    action.reset().fadeIn(0.5).play();
+    
+    return () => {
+      if (action && typeof action.fadeOut === 'function') {
+        action.fadeOut(0.5);
+      }
+    };
+  }, [animationName, actions])
 
   return (
     <group {...props} dispose={null} ref={group}>
