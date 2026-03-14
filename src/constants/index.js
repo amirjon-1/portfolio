@@ -25,6 +25,55 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'Schoolbus- Campus Ride-Sharing',
+      desc: 'Schoolbus is a cross-platform ride-sharing app built for college campuses, connecting students for safe, affordable, and convenient rides within and around campus.',
+      subdesc:
+        'Built with React Native and Expo, with a Bun backend using the Hono framework deployed on AWS EC2. Features real-time ride matching via WebSockets with sub-100ms API response times, PostgreSQL for data persistence, and a GitHub Actions CD pipeline for automated deployment. Led a team of 4 student engineers, implementing TDD practices that raised code coverage from 40% to 80%.',
+      href: 'https://schoolbus.cc',
+      texture: '/assets/s.mp4',
+      logo: 'https://i.ibb.co/s9L3mP5y/icon.png',
+      logoStyle: {
+        backgroundColor: '#FFFFFF',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React Native',
+          path: '/assets/react.svg',
+        },
+      ],
+    },
+    {
+      title: 'SalesAgent AI - Multi-Agent Sales Research',
+      desc: 'An autonomous multi-agent AI platform that researches leads, detects buying signals, and generates personalized outreach at scale — cutting manual research time from hours to minutes.',
+      subdesc:
+        'Built with Python (FastAPI), React, and PostgreSQL, the system coordinates three specialized AI agents: a Research Agent that profiles companies and identifies pain points, a Signal Agent that monitors funding/job postings for buying triggers, and a Writer Agent that generates tailored outreach emails. Each agent uses Google Gemini 2.5 Flash with structured JSON outputs.',
+      href: 'https://github.com/amirjon-1/salesagent',
+      texture: '/assets/s.mp4',
+      logo: 'https://i.ibb.co/jr6qHjc/s.png',
+      logoStyle: {
+        backgroundColor: '#0f1117',
+        border: '0.2px solid #2d2d2d',
+        boxShadow: '0px 0px 60px 0px #6366F14D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Python',
+          path: '/assets/js.png',
+        },
+        {
+          id: 2,
+          name: 'React',
+          path: '/assets/react.svg',
+        },
+      ],
+    },
+    {
       title: 'Appofy - Build Your Online World',
       desc: 'Appofy helps businesses grow online by offering customized iOS and Android apps, websites, and digital solutions to expand their presence and reach more customers.',
       subdesc:
@@ -45,7 +94,30 @@ export const navLinks = [
           path: '/assets/flut.jpg',
         },
       ],
-    },{
+    },
+    {
+      title: 'BrewBar Coffee',
+      desc: 'Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup.',
+      subdesc:
+        'The BrewBar Coffee App was built using React Native and Node.js, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
+      href: 'https://apps.apple.com/us/app/brewbar-coffee/id6535690026',
+      texture: '/assets/s.mp4',
+      logo: '/assets/brew.jpg',
+      logoStyle: {
+        backgroundColor: '#313d34',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'react',
+          path: '/assets/react.svg',
+        },
+      ],
+    },
+    {
       title: 'Consensus Corner',
       desc: 'Consensus Corner is a platform that allows users to share their views and opinions on various topics regarding politics. It provides a space for users to express their thoughts and opinions in a safe and respectful environment.',
       subdesc:
@@ -152,28 +224,6 @@ export const navLinks = [
       ],
     },
     {
-      title: 'BrewBar Coffee',
-      desc: 'Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup.',
-      subdesc:
-        'The BrewBar Coffee App was built using React Native and Node.js, allowing it to run smoothly on both iOS and Android. I created this app for my local coffee shop where I worked as a barista and barback for a while. Custom APIs handle orders, user data, and real-time updates, while Firebase powers the backend with cloud storage, authentication, and notifications. The app was thoroughly tested on both iOS and Android before being deployed, ensuring a smooth and reliable experience for BrewBar Café customers.',
-      href: 'https://apps.apple.com/us/app/brewbar-coffee/id6535690026',
-      texture: '/assets/s.mp4',
-      logo: '/assets/brew.jpg',
-      logoStyle: {
-        backgroundColor: '#313d34',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'react',
-          path: '/assets/react.svg',
-        },
-      ],
-    },
-    {
       title: 'Techouze - Home Essentials Hub',
       desc: 'Techouze offers smart home products and commercial supplies, specializing in plumbing, HVAC, and electrical tools.',
       subdesc:
@@ -187,28 +237,6 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
       spotlight: '/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'react',
-          path: '/assets/react.svg',
-        },
-      ],
-    },
-    {
-      title: 'ICSI - Islamic Center of Staten Island',
-      desc: 'ICSI offers spiritual, educational, and social programs to nurture Islamic knowledge for all ages. This app was a donation to the Islamic center!',
-      subdesc:
-        'Built used React Native and Node. It allows people to access upcoming events and general information.',
-      href: 'https://icsi.appofy.co/',
-      texture: '/assets/s.mp4',
-      logo: '/assets/icsi.png',
-      logoStyle: {
-        backgroundColor: '#FFFFFF',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-      },
-      spotlight: '/assets/spotlight3.png',
       tags: [
         {
           id: 1,
@@ -237,8 +265,8 @@ export const navLinks = [
       name: 'Schoolbus',
       pos: 'Lead Software Engineer',
       duration: 'May 2025 - Present',
-      title: "Direct development of a cross-platform ride-sharing app (React Native, Node.js, PostgreSQL on AWS), managing a team of 4 student engineers. Institute TDD, raising code coverage from 40% to 85% and cutting post-deployment bugs by 70%. Design a scalable backend using the Hono framework, achieving sub-100ms API response times and supporting over 1000 concurrent users with minimal latency. Built to easily scale across multiple schools.",
-      icon: 'https://i.ibb.co/jr6qHjc/s.png',
+      title: "Lead development of a cross-platform ride-sharing app (React Native, Node.js, PostgreSQL on AWS), leveraging Claude AI for code review and managing a team of 4 student engineers. Institute TDD, raising code coverage from 40% to 80% and cutting post-deployment bugs by 50%. Build real-time matching backend with Hono framework and WebSocket connections, handling concurrent ride requests with sub-100ms API response times.",
+      icon: 'https://i.ibb.co/s9L3mP5y/icon.png',
       animation: 'clapping',
     },
     {
@@ -246,7 +274,7 @@ export const navLinks = [
       name: 'SVP Portland',
       pos: 'Software Engineer Intern',
       duration: 'June 2025 - September 2025',
-      title: "Rebuilt SVP Portland’s public website to align with new marketing objectives, boosting usability and increasing visitor engagement by 40%. Automated investor partner onboarding workflows with Salesforce + V4S dynamic forms, reducing manual processing time by 50%. Shipped features in 3-week Agile sprints via Azure DevOps, completing 95% of sprint goals on time and improving release velocity by 30%.",
+      title: "Rebuilt SVP Portland’s public website to align with new marketing objectives and improve navigation and accessibility, making information more discoverable for prospective partners and community members. Automated investor partner onboarding workflows with Salesforce + V4S dynamic forms, eliminating manual data entry for 10+ staff members.",
       icon: 'https://i.ibb.co/mC4wW7qw/svps.png',
       animation: 'salute',
     },
@@ -255,7 +283,7 @@ export const navLinks = [
       name: 'Appofy',
       pos: 'Software Engineer',
       duration: 'March 2024 - July 2025',
-      title: "Developed over 6 cross-platform mobile apps using React Native, Node.js, and Firebase, enabling small businesses to expand their digital presence, attract over 500 active users, and boost overall profitability. Partnered with clients to analyze user needs and implement tailored features, leading to a 20% improvement in app retention rates.",
+      title: "Developed over 6 cross-platform mobile apps using React Native, Node.js, and Firebase, enabling small businesses to expand their digital presence, attract over 800 active users, and boost overall profitability. Designed and implemented e-commerce pipelines and push notification systems, improving user retention and repeat purchases through iterating on features based on client feedback and analytics.",
       icon: 'https://i.ibb.co/S55Vkbq/logo.png',
       animation: 'arm',
     },
