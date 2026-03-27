@@ -46,8 +46,35 @@ export const navLinks = [
         },
       ],
     },
+      {
+    title: 'JusticeMap - Legal Rights Assistant',
+    desc: 'An AI-powered legal RAG platform that gives urban residents free, verified legal guidance backed by real municipal law — generating a formal demand letter ready to send in under 60 seconds. Awarded 1st place at MEGA Hackathon 2026.',
+    subdesc:
+      'Built with Python (FastAPI), React (TypeScript), and ChromaDB, the system runs an 8-step pipeline coordinating 4 specialized LLM agents: an Intake Agent that extracts key facts, a Research Agent that retrieves relevant statutes via vector search, an Analysis Agent that structures applicable law with severity ratings, and a Letter Agent that drafts formal demand letters. Citation accuracy is verified using TF-IDF cosine similarity grounding and Wolfram Alpha.',
+    href: 'https://justicemapmegahackathon.vercel.app/',
+    texture: '/assets/s.mp4',
+    logo: '/assets/logojustice.png',
+    logoStyle: {
+      backgroundColor: '#ffffff',
+      border: '0.2px solid #1e3a5f',
+      boxShadow: '0px 0px 60px 0px #3B82F64D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 2,
+        name: 'React',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+    ],
+  },
     {
-      title: 'SalesAgent AI - Multi-Agent Sales Research',
+      title: 'SalesAgent AI',
       desc: 'An autonomous multi-agent AI platform that researches leads, detects buying signals, and generates personalized outreach at scale — cutting manual research time from hours to minutes.',
       subdesc:
         'Built with Python (FastAPI), React, and PostgreSQL, the system coordinates three specialized AI agents: a Research Agent that profiles companies and identifies pain points, a Signal Agent that monitors funding/job postings for buying triggers, and a Writer Agent that generates tailored outreach emails. Each agent uses Google Gemini 2.5 Flash with structured JSON outputs.',
