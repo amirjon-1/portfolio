@@ -31,7 +31,7 @@ export const navLinks = [
         'Built with React Native and Expo, with a Bun backend using the Hono framework deployed on AWS EC2. Features real-time ride matching via WebSockets with sub-100ms API response times, PostgreSQL for data persistence, and a GitHub Actions CD pipeline for automated deployment. Led a team of 4 student engineers, implementing TDD practices that raised code coverage from 40% to 80%.',
       href: 'https://schoolbus.cc',
       texture: '/assets/s.mp4',
-      logo: '../../public/assets/icon.png',
+      logo: '/assets/icon.png',
       logoStyle: {
         backgroundColor: '#FFFFFF',
         border: '0.2px solid rgba(208, 213, 221, 1)',
@@ -39,11 +39,10 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight2.png',
       tags: [
-        {
-          id: 1,
-          name: 'React Native',
-          path: '/assets/react.svg',
-        },
+        { id: 1, name: 'React Native', path: '/assets/react.svg' },
+        { id: 2, name: 'Hono', path: '/assets/js.png' },
+        { id: 3, name: 'PostgreSQL', path: '/assets/js.png' },
+        { id: 4, name: 'AWS', path: '/assets/js.png' },
       ],
     },
       {
@@ -115,11 +114,9 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight4.png',
       tags: [
-         {
-          id: 2,
-          name: 'Flutter',
-          path: '/assets/flut.jpg',
-        },
+        { id: 1, name: 'Flutter', path: '/assets/flut.jpg' },
+        { id: 2, name: 'Node.js', path: '/assets/js.png' },
+        { id: 3, name: 'Firebase', path: '/assets/js.png' },
       ],
     },
     {
@@ -137,11 +134,9 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight1.png',
       tags: [
-        {
-          id: 1,
-          name: 'react',
-          path: '/assets/react.svg',
-        },
+        { id: 1, name: 'React Native', path: '/assets/react.svg' },
+        { id: 2, name: 'Node.js', path: '/assets/js.png' },
+        { id: 3, name: 'Firebase', path: '/assets/js.png' },
       ],
     },
     {
@@ -191,11 +186,9 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight5.png',
       tags: [
-        {
-          id: 1,
-          name: 'Flutter',
-          path: '/assets/flut.jpg',
-        },
+        { id: 1, name: 'Flutter', path: '/assets/flut.jpg' },
+        { id: 2, name: 'Node.js', path: '/assets/js.png' },
+        { id: 3, name: 'Firebase', path: '/assets/js.png' },
       ],
     },
     {
@@ -243,11 +236,8 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight1.png',
       tags: [
-        {
-          id: 1,
-          name: 'React',
-          path: '/assets/react.svg',
-        },
+        { id: 1, name: 'React Native', path: '/assets/react.svg' },
+        { id: 2, name: 'Go', path: '/assets/js.png' },
       ],
     },
     {
@@ -265,11 +255,9 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight2.png',
       tags: [
-        {
-          id: 1,
-          name: 'react',
-          path: '/assets/react.svg',
-        },
+        { id: 1, name: 'React Native', path: '/assets/react.svg' },
+        { id: 2, name: 'Node.js', path: '/assets/js.png' },
+        { id: 3, name: 'Firebase', path: '/assets/js.png' },
       ],
     },
   ];
@@ -290,10 +278,10 @@ export const navLinks = [
     {
       id: 1,
       name: 'Schoolbus',
-      pos: 'Lead Software Engineer',
+      pos: 'Software Engineer',
       duration: 'May 2025 - Present',
       title: "Lead development of a cross-platform ride-sharing app (React Native, Node.js, PostgreSQL on AWS), leveraging Claude AI for code review and managing a team of 4 student engineers. Institute TDD, raising code coverage from 40% to 80% and cutting post-deployment bugs by 50%. Build real-time matching backend with Hono framework and WebSocket connections, handling concurrent ride requests with sub-100ms API response times.",
-      icon: '../../public/assets/icon.png',
+      icon: '/assets/icon.png',
       animation: 'clapping',
     },
     {
@@ -302,7 +290,7 @@ export const navLinks = [
       pos: 'Software Engineer Intern',
       duration: 'June 2025 - September 2025',
       title: "Rebuilt SVP Portland’s public website to align with new marketing objectives and improve navigation and accessibility, making information more discoverable for prospective partners and community members. Automated investor partner onboarding workflows with Salesforce + V4S dynamic forms, eliminating manual data entry for 10+ staff members.",
-      icon: '../../public/assets/svp.png',
+      icon: '/assets/svp.png',
       animation: 'salute',
     },
     {
@@ -311,7 +299,7 @@ export const navLinks = [
       pos: 'Software Engineer',
       duration: 'March 2024 - July 2025',
       title: "Developed over 6 cross-platform mobile apps using React Native, Node.js, and Firebase, enabling small businesses to expand their digital presence, attract over 800 active users, and boost overall profitability. Designed and implemented e-commerce pipelines and push notification systems, improving user retention and repeat purchases through iterating on features based on client feedback and analytics.",
-      icon: '../../public/assets/appofy.png',
+      icon: '/assets/appofy.png',
       animation: 'arm',
     },
   ];

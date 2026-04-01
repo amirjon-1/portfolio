@@ -1,9 +1,11 @@
 import Globe from "react-globe.gl";
 import { useState } from "react";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
-    
+    const ref = useScrollAnimation();
+
     const handleCopy = () => {
         navigator.clipboard.writeText('amirjon5321@gmail.com');
         setHasCopied(true);
@@ -15,13 +17,13 @@ const About = () => {
     return (
         <section className="c-space my-32" id="about">
             <div className="max-w-6xl mx-auto">
-                <div className="grid lg:grid-cols-2 gap-12 items-stretch">
-                    {/* Left side - About section in a box */}
-                    <div className="bg-white border border-gray-200 rounded-lg p-8 flex flex-col">
+                <div ref={ref} className="grid lg:grid-cols-2 gap-12 items-stretch">
+                    {/* Left side */}
+                    <div className="scroll-child bg-white border border-gray-200 rounded-lg p-8 flex flex-col">
                         <div className="text-center lg:text-left flex-1 flex flex-col">
-                            <img 
-                                src="/assets/profile.png" 
-                                alt="Amir" 
+                            <img
+                                src="/assets/profile.png"
+                                alt="Amir"
                                 className="w-40 h-40 rounded-full object-cover mx-auto lg:mx-0 mb-6"
                             />
                             <h2 className="text-3xl font-semibold text-black mb-6">Hi, I'm Amir</h2>
@@ -31,18 +33,18 @@ const About = () => {
                         </div>
                     </div>
 
-                    {/* Right side - Globe with Location & Availability */}
-                    <div className="flex flex-col h-full">
+                    {/* Right side */}
+                    <div className="scroll-child flex flex-col h-full">
                         <div className="flex justify-center mb-8 flex-1 flex items-center">
                             <div className="w-full max-w-sm">
-                                <Globe 
-                                    height={380} 
-                                    width={380} 
-                                    backgroundColor="rgba(0,0,0,0)" 
-                                    backgroundImageOpacity={0.5} 
-                                    showAtmosphere 
-                                    showGraticules 
-                                    globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg" 
+                                <Globe
+                                    height={380}
+                                    width={380}
+                                    backgroundColor="rgba(0,0,0,0)"
+                                    backgroundImageOpacity={0.5}
+                                    showAtmosphere
+                                    showGraticules
+                                    globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
                                     bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                                 />
                             </div>
@@ -54,7 +56,7 @@ const About = () => {
                             </p>
                             <div>
                                 <p className="text-sm text-gray-500 mb-2">Contact</p>
-                                <button 
+                                <button
                                     onClick={handleCopy}
                                     className="flex items-center gap-2 text-black hover:opacity-70 transition-opacity cursor-pointer"
                                 >
