@@ -31,7 +31,7 @@ export const navLinks = [
         'Built with React Native and Expo, with a Bun backend using the Hono framework deployed on AWS EC2. Features real-time ride matching via WebSockets with sub-100ms API response times, PostgreSQL for data persistence, and a GitHub Actions CD pipeline for automated deployment. Led a team of 4 student engineers, implementing TDD practices that raised code coverage from 40% to 80%.',
       href: 'https://schoolbus.cc',
       texture: '/assets/s.mp4',
-      logo: 'https://i.ibb.co/s9L3mP5y/icon.png',
+      logo: '../../public/assets/icon.png',
       logoStyle: {
         backgroundColor: '#FFFFFF',
         border: '0.2px solid rgba(208, 213, 221, 1)',
@@ -293,7 +293,7 @@ export const navLinks = [
       pos: 'Lead Software Engineer',
       duration: 'May 2025 - Present',
       title: "Lead development of a cross-platform ride-sharing app (React Native, Node.js, PostgreSQL on AWS), leveraging Claude AI for code review and managing a team of 4 student engineers. Institute TDD, raising code coverage from 40% to 80% and cutting post-deployment bugs by 50%. Build real-time matching backend with Hono framework and WebSocket connections, handling concurrent ride requests with sub-100ms API response times.",
-      icon: 'https://i.ibb.co/s9L3mP5y/icon.png',
+      icon: '../../public/assets/icon.png',
       animation: 'clapping',
     },
     {
@@ -302,7 +302,7 @@ export const navLinks = [
       pos: 'Software Engineer Intern',
       duration: 'June 2025 - September 2025',
       title: "Rebuilt SVP Portland’s public website to align with new marketing objectives and improve navigation and accessibility, making information more discoverable for prospective partners and community members. Automated investor partner onboarding workflows with Salesforce + V4S dynamic forms, eliminating manual data entry for 10+ staff members.",
-      icon: 'https://i.ibb.co/mC4wW7qw/svps.png',
+      icon: '../../public/assets/svp.png',
       animation: 'salute',
     },
     {
@@ -311,7 +311,7 @@ export const navLinks = [
       pos: 'Software Engineer',
       duration: 'March 2024 - July 2025',
       title: "Developed over 6 cross-platform mobile apps using React Native, Node.js, and Firebase, enabling small businesses to expand their digital presence, attract over 800 active users, and boost overall profitability. Designed and implemented e-commerce pipelines and push notification systems, improving user retention and repeat purchases through iterating on features based on client feedback and analytics.",
-      icon: 'https://i.ibb.co/S55Vkbq/logo.png',
+      icon: '../../public/assets/appofy.png',
       animation: 'arm',
     },
   ];
