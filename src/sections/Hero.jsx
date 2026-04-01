@@ -9,7 +9,7 @@ const Hero = () => {
             </div>
             <div className="relative z-10 text-center px-5">
                 <h1 className="text-6xl md:text-8xl font-bold text-black mb-4 tracking-tight">
-                    Solutions That Matter.
+                    Built to optimize.
                 </h1>
             </div>
         </section>

@@ -26,7 +26,7 @@ const About = () => {
                             />
                             <h2 className="text-3xl font-semibold text-black mb-6">Hi, I'm Amir</h2>
                             <p className="text-gray-600 text-lg leading-relaxed flex-1">
-                                I'm a Williams College student studying Statistics and Computer Science with experience in software engineering, mobile development, and machine learning. I've built full-stack products, redesigned nonprofit websites, and developed mobile apps for real clients. I enjoy solving technical problems, learning new tools, and creating projects that have real impact. I'm open to opportunities in machine learning, software engineering or development.
+                                I'm a sophomore at Williams College studying Statistics and Computer Science. I do CUDA kernel optimization research, build full-stack products that actually ship, and somehow find time for dragon boat racing, badminton, and archery. I speak six languages and I'm joining NBCUniversal as a software engineer intern this summer. I like the work that actually matters.
                             </p>
                         </div>
                     </div>

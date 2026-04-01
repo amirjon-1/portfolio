@@ -49,7 +49,7 @@ const Contact = () => {
         <section className='c-space my-32' id="contact">
             <div className='max-w-2xl mx-auto'>
                 <h2 className='text-4xl font-semibold text-black mb-4'>Contact Me</h2>
-                <p className='text-lg text-gray-600 mb-12'>I'm here to help you bring your ideas to life.</p>
+                <p className='text-lg text-gray-600 mb-12'>Have a project or opportunity in mind? Reach out.</p>
 
                 <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col space-y-6'>
                     <label className='flex flex-col space-y-2'>
