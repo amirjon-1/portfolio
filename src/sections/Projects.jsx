@@ -7,7 +7,7 @@ const featuredProjects = [
     {
         year: "2026",
         title: "JusticeMap - Legal Rights Assistant",
-        desc: "AI-powered legal RAG platform giving urban residents free verified legal guidance. Generates a formal demand letter in under 60 seconds. Awarded 1st place at MEGA Hackathon 2026.",
+        desc: "An AI-powered legal RAG platform that gives urban residents free, verified legal guidance backed by real municipal law — generating a formal demand letter ready to send in under 60 seconds. Awarded 1st place at MEGA Hackathon 2026.",
         tags: ["Python", "FastAPI", "RAG", "Multi-Agent"],
         detailsHref: "https://justicemapmegahackathon.vercel.app/",
         logo: "/assets/logojustice.png",
@@ -16,7 +16,7 @@ const featuredProjects = [
     {
         year: "2025",
         title: "Schoolbus - Campus Ride-Sharing",
-        desc: "Cross-platform ride-sharing app for college campuses with real-time ride matching and sub-100ms API response times. Led a team of 4 to solve a real problem on campus.",
+        desc: "Schoolbus is a cross-platform ride-sharing app built for college campuses, connecting students for safe, affordable, and convenient rides within and around campus.",
         tags: ["React Native", "Hono", "PostgreSQL", "AWS"],
         detailsHref: "https://schoolbus.cc",
         logo: "/assets/icon.png",
@@ -25,7 +25,7 @@ const featuredProjects = [
     {
         year: "2024",
         title: "BrewBar Coffee",
-        desc: "Built a full ordering app for my local coffee shop where I worked as a barista. Real customers, live on the App Store, handles orders and real-time tracking with Firebase.",
+        desc: "Order directly from BrewBar Café with the BrewBar Coffee App. Enjoy personalized drinks, real-time tracking, and secure payments for convenient pickup.",
         tags: ["React Native", "Node.js", "Firebase"],
         detailsHref: "https://apps.apple.com/us/app/brewbar-coffee/id6535690026",
         logo: "/assets/brew.jpg",

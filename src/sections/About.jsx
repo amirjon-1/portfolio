@@ -1,10 +1,11 @@
 import Globe from "react-globe.gl";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
     const ref = useScrollAnimation();
+    const globeRef = useRef();
 
     const handleCopy = () => {
         navigator.clipboard.writeText('amirjon5321@gmail.com');
@@ -38,6 +39,7 @@ const About = () => {
                         <div className="flex justify-center mb-8 flex-1 flex items-center">
                             <div className="w-full max-w-sm">
                                 <Globe
+                                    ref={globeRef}
                                     height={380}
                                     width={380}
                                     backgroundColor="rgba(0,0,0,0)"
@@ -46,6 +48,11 @@ const About = () => {
                                     showGraticules
                                     globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
                                     bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                                    onGlobeReady={() => {
+                                        if (globeRef.current) {
+                                            globeRef.current.controls().enableZoom = false;
+                                        }
+                                    }}
                                 />
                             </div>
                         </div>
