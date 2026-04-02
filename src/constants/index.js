@@ -277,11 +277,11 @@ export const navLinks = [
 
     {
       id: 1,
-      name: 'Schoolbus',
-      pos: 'Software Engineer',
-      duration: 'May 2025 - Present',
-      title: "Lead development of a cross-platform ride-sharing app (React Native, Node.js, PostgreSQL on AWS), leveraging Claude AI for code review and managing a team of 4 student engineers. Institute TDD, raising code coverage from 40% to 80% and cutting post-deployment bugs by 50%. Build real-time matching backend with Hono framework and WebSocket connections, handling concurrent ride requests with sub-100ms API response times.",
-      icon: '/assets/icon.png',
+      name: 'NBC Universal',
+      pos: 'Incoming Software Engineer Intern',
+      duration: 'June 2026',
+      title: "Will be part of the Video Player Technology team to build and optimize features for NBCUniversal’s Roku platform, enhancing performance and reliability of distributed video streaming systems.",
+      icon: '/assets/nbc.jpeg',
       animation: 'clapping',
     },
     {

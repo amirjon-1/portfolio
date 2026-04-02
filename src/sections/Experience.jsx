@@ -14,7 +14,19 @@ const Experience = () => {
     return (
         <section className="c-space my-20">
             <div className="w-full text-white-600 max-w-7xl mx-auto px-6 sm:px-10">
-                <h3 ref={headingRef} className="scroll-hidden head-text mb-12">Professional Experience</h3>
+                <div className="flex items-center justify-between mb-12 flex-wrap gap-4">
+                    <h3 ref={headingRef} className="scroll-hidden head-text">Professional Experience</h3>
+                    <a
+                        href="/assets/AmirjonUlmasovResume.pdf"
+                        download
+                        className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-black/20 bg-white text-black text-sm font-medium shadow-sm hover:shadow-md hover:bg-black hover:text-white transition-all duration-300 group"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Download CV
+                    </a>
+                </div>
                 <div className="work-container">
                     <div className="work-canvas">
                         <Canvas>
@@ -48,7 +60,11 @@ const Experience = () => {
                                     <div className="sm:p-5 px-2.5 py-5">
                                         <p className="font-bold text-black">{name}</p>
                                         <p className="text-sm mb-5 text-black">{pos} -- {duration}</p>
-                                        <p className="group-hover:text-black transition ease-in-out duration-500 text-black">{title}</p>
+                                        <ul className="list-disc list-outside pl-4 space-y-1">
+                                            {title.split(/(?<=\.)\s+(?=[A-Z])/).map(s => s.trim()).filter(Boolean).map((sentence, i) => (
+                                                <li key={i} className="group-hover:text-black transition ease-in-out duration-500 text-black text-sm">{sentence}</li>
+                                            ))}
+                                        </ul>
                                     </div>
                                 </div>
                             ))}
