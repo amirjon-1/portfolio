@@ -277,7 +277,7 @@ export const navLinks = [
 
     {
       id: 1,
-      name: 'NBC Universal',
+      name: 'NBCUniversal',
       pos: 'Incoming Software Engineer Intern',
       duration: 'June 2026',
       title: "Will be part of the Video Player Technology team to build and optimize features for NBCUniversal’s Roku platform, enhancing performance and reliability of distributed video streaming systems.",
