@@ -29,7 +29,7 @@ const About = () => {
                             />
                             <h2 className="text-3xl font-semibold text-black mb-6">Hi, I'm Amir</h2>
                             <p className="text-gray-600 text-lg leading-relaxed flex-1">
-                                I'm a sophomore at Williams College studying Statistics and Computer Science. I do CUDA kernel optimization research, build full-stack products that actually ship, and somehow find time for dragon boat racing, badminton, and archery. I speak six languages and I'm joining NBCUniversal as a software engineer intern this summer. I like the work that actually matters.
+                                I'm a junior at Williams College studying Statistics and Computer Science. I do CUDA kernel optimization research, build full-stack products that actually ship, and somehow find time for dragon boat racing, badminton, and archery. I speak six languages and just wrapped up a software engineering internship on the VPT Roku team at NBCUniversal, working on streaming tech. I like the work that actually matters.
                             </p>
                         </div>
                     </div>

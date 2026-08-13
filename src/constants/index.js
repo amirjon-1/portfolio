@@ -278,11 +278,11 @@ export const navLinks = [
     {
       id: 1,
       name: 'NBCUniversal',
-      pos: 'Incoming Software Engineer Intern',
-      duration: 'June 2026',
-      title: "Will be part of the Video Player Technology team to build and optimize features for NBCUniversal’s Roku platform, enhancing performance and reliability of distributed video streaming systems.",
+      pos: 'Software Engineer Intern',
+      duration: 'June 2026 - August 2026',
+      title: "Cut QA asset turnaround by 5x by building a background Task node in BrightScript that retrieves and filters dynamic assets from an internal configuration API, eliminating hardcoded test assets from the Roku SDK. Triaged and resolved 10+ recurring production bugs across sprints, including a P0 defect risking live-stream accessibility for users on legacy devices.Engineered a dedicated message port with a senior engineer to filter priority traffic, cutting response time from ~20 min to ~10 sec, streamlining the incident response process. Built a CI pipeline to auto-generate AI-assisted documentation for every major PR and launched the team’s internal docs platform, adopted team-wide to cut manual doc writing and speed up onboarding.",
       icon: '/assets/nbc.jpeg',
-      animation: 'clapping',
+      animation: 'victory',
     },
     {
       id: 2,
